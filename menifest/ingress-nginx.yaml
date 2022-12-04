@@ -10,7 +10,7 @@ spec:
   - host: test.heyallday.com
     http:
       paths:
-      - path: /easyclaim-frontend(/|$)(.*)
+      - path: /easyclaim-frontend
         pathType: ImplementationSpecific
         backend:
           service:
