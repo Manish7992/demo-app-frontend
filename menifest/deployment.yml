@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name:  easyclaim-frontend
-          image: vigneshsweekaran/easyclaim-frontend
+          image: manish8757/rancher:f924d83fcc60f2ece7d1d49862e9a862ae70e0fe
           imagePullPolicy: Always
           volumeMounts:
           - name: config-volume
